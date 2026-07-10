@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  text-align: center;
+  padding: 10px 30px;
+  color: white;
+  border-color: #2563eb;
+  border-radius: 4px;
+  font-weight: bold;
+  width: fit-content;
+  justify-self: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 40px;
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #888888;
+}
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/* header  */
+.header-content {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  width: 400px;
+  padding: 50px 0px;
+}
+.header-content button {
+  margin-top: 250px;
+}
+.motto {
+  font-weight: bolder;
+
+  width: 450px;
+  width: 500px;
+}
