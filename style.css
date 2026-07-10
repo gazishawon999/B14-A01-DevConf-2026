@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .common-btn {
   background-color: #1d4ed8;
@@ -21,7 +22,7 @@ nav {
   margin-top: 10px;
   align-items: center;
 }
-ul {
+nav ul {
   display: flex;
   gap: 25px;
   list-style: none;
@@ -125,4 +126,166 @@ header {
 
 .card-content p {
   color: #666;
+}
+
+/* pricing section in css */
+
+.pricing {
+  width: 90%;
+
+  margin: 100px auto;
+}
+
+.pricing h2 {
+  text-align: center;
+
+  font-size: 52px;
+
+  font-weight: 700;
+
+  color: #0f172a;
+
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+
+  color: #6b7280;
+
+  font-size: 15px;
+
+  margin-bottom: 50px;
+}
+
+/* Grid */
+
+.pricing-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+/* Card */
+
+.pricing-card {
+  border: 1px solid #e5e7eb;
+
+  border-radius: 10px;
+
+  padding: 22px;
+
+  background: #fff;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.pricing-card h5 {
+  color: #6b7280;
+
+  font-size: 12px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+}
+.pricing-card .pro {
+  color: #0a48f3;
+}
+
+.pricing-card h1 {
+  font-size: 52px;
+
+  color: #0f172a;
+
+  margin-bottom: 5px;
+}
+
+.pricing-card span {
+  color: #6b7280;
+
+  font-size: 14px;
+}
+
+.pricing-card hr {
+  margin: 20px 0;
+
+  border: none;
+
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Feature List */
+
+.pricing-card ul {
+  padding-left: 18px;
+  list-style: blue circle;
+  margin-bottom: 25px;
+}
+
+.pricing-card li {
+  color: #374151;
+
+  margin-bottom: 12px;
+
+  font-size: 14px;
+}
+
+/* Button Bottom */
+
+.pricing-card button {
+  margin-top: auto;
+
+  width: 100%;
+
+  padding: 12px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  font-size: 15px;
+}
+
+/* White Cards */
+
+.outline-btn {
+  background: white;
+
+  color: #2563eb;
+
+  border: 1px solid #2563eb;
+}
+
+/* Featured Card */
+
+.featured {
+  background: #0f172a;
+
+  color: white;
+}
+
+.featured h1,
+.featured h5,
+.featured span,
+.featured li {
+  color: white;
+}
+
+.featured hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.get-pro-btn {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
 }
