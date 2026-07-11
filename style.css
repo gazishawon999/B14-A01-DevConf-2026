@@ -12,7 +12,9 @@
   border-radius: 4px;
   font-weight: bold;
   width: fit-content;
-  justify-self: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: inter;
 }
 nav {
   display: flex;
@@ -48,19 +50,29 @@ header {
 .header-content {
   color: white;
   text-align: center;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  width: 400px;
-  padding: 50px 0px;
+  width: 500px;
 }
-.header-content button {
-  margin-top: 250px;
+
+.register-btn {
+  background-color: #1d4ed8;
+  padding: 12px 40px;
+  color: white;
+  margin-top: auto;
+  border: none;
+  margin-top: 170px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
 }
+
 .motto {
   font-weight: bolder;
-
-  width: 450px;
   width: 500px;
+  font-size: 50px;
 }
 
 /* Speaker Section */
@@ -72,60 +84,51 @@ header {
 
 .speakers h2 {
   text-align: center;
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom: 50px;
+  padding-top: 10px;
+  font-family: inter;
 }
-
-/* Grid Container */
 
 .speaker-container {
   display: grid;
-
   grid-template-columns: repeat(2, 1fr);
-
   gap: 30px;
 }
 
 .card {
   border: 1px solid #e5e7eb;
-
   border-radius: 10px;
-
   overflow: hidden;
-
   background: #fff;
 }
 
 .card img {
   width: 100%;
-
-  height: 280px;
-
+  height: 300px;
   object-fit: cover;
-
   display: block;
 }
 
 .card-content {
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .card-content h5 {
   color: #2563eb;
-
-  font-size: 12px;
-
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .card-content h3 {
-  font-size: 28px;
-
+  font-size: 30px;
+  font-family: inter;
   margin-bottom: 10px;
 }
 
 .card-content p {
   color: #666;
+  font-size: 18px;
 }
 
 /* pricing section in css */
@@ -138,59 +141,41 @@ header {
 
 .pricing h2 {
   text-align: center;
-
-  font-size: 52px;
-
+  font-family: inter;
+  font-size: 50px;
   font-weight: 700;
-
   color: #0f172a;
-
   margin-bottom: 10px;
 }
 
-.subtitle {
+.early-bird {
   text-align: center;
-
-  color: #6b7280;
-
-  font-size: 15px;
-
+  color: #575757;
+  font-size: 16px;
   margin-bottom: 50px;
 }
 
-/* Grid */
-
 .pricing-container {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 30px;
 }
 
 /* Card */
 
 .pricing-card {
-  border: 1px solid #e5e7eb;
-
-  border-radius: 10px;
-
-  padding: 22px;
-
-  background: #fff;
-
   display: flex;
-
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 22px;
+  background: #fff;
   flex-direction: column;
 }
 
 .pricing-card h5 {
-  color: #6b7280;
-
-  font-size: 12px;
-
+  color: #333333;
+  font-size: 14px;
   letter-spacing: 1px;
-
   margin-bottom: 10px;
 }
 .pricing-card .pro {
@@ -198,24 +183,19 @@ header {
 }
 
 .pricing-card h1 {
-  font-size: 52px;
-
-  color: #0f172a;
-
+  font-size: 44px;
+  color: #0d1b2a;
   margin-bottom: 5px;
 }
 
 .pricing-card span {
-  color: #6b7280;
-
-  font-size: 14px;
+  color: #888888;
+  font-size: 13px;
 }
 
 .pricing-card hr {
-  margin: 20px 0;
-
+  margin: 10px 0;
   border: none;
-
   border-top: 1px solid #e5e7eb;
 }
 
@@ -228,38 +208,27 @@ header {
 }
 
 .pricing-card li {
-  color: #374151;
-
+  color: #333333;
   margin-bottom: 12px;
-
   font-size: 14px;
 }
 
-/* Button Bottom */
+/*Pricing Card subscription Button  */
 
+/* White Cards */
 .pricing-card button {
   margin-top: auto;
-
   width: 100%;
-
   padding: 12px;
-
   border-radius: 6px;
-
   cursor: pointer;
-
   font-weight: 600;
-
   font-size: 15px;
 }
 
-/* White Cards */
-
 .outline-btn {
   background: white;
-
   color: #2563eb;
-
   border: 1px solid #2563eb;
 }
 
@@ -267,7 +236,6 @@ header {
 
 .featured {
   background: #0f172a;
-
   color: white;
 }
 
@@ -278,15 +246,14 @@ header {
   color: white;
 }
 
-.featured hr {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+.featured hr,
+.pricing-card hr {
+  border-top: ffffff;
 }
 
 .get-pro-btn {
   background: #2563eb;
-
   color: white;
-
   border: none;
 }
 
@@ -305,16 +272,14 @@ header {
   margin-bottom: 15px;
 }
 
-.subtitle {
+.attend-subtitle {
   font-size: 18px;
   color: #555;
   margin-bottom: 60px;
 }
 
-/* Card Container */
-
 .attend-container {
-  width: 1100px;
+  width: 90%;
   margin: auto;
 
   display: flex;
@@ -322,17 +287,15 @@ header {
   justify-content: space-between;
 }
 
-/* Card */
-
 .attend-card {
-  width: 320px;
+  width: 300px;
   background: white;
 
-  border-radius: 12px;
+  border-radius: 8px;
 
   padding: 30px;
 
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 
   box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.08);
 
@@ -341,36 +304,78 @@ header {
   box-sizing: border-box;
 }
 
-/* Hover */
-
-.attend-card:hover {
-  background: #2563eb;
-
-  color: white;
-
-  transform: translateY(-8px);
-}
-
-/* Icon */
-
 .icon {
-  font-size: 45px;
+  font-size: 50px;
 
   margin-bottom: 20px;
 }
 
-/* Card Heading */
-
 .attend-card h3 {
   font-size: 24px;
-
+  font-family: inter;
   margin-bottom: 15px;
 }
 
-/* Card Paragraph */
-
 .attend-card p {
   font-size: 16px;
-
+  font-family: inter;
   line-height: 26px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 50px;
+  background-color: #0d1b2a;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 180px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 55px;
+  margin-left: 10px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.footer-top ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+i {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid burlywood;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  text-align: center;
+  color: rgb(233, 226, 226);
+  font-size: 20px;
+  padding: 10px;
 }
