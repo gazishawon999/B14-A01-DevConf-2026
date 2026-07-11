@@ -1,3 +1,5 @@
+This project github Live website link: https://gazishawon999.github.io/B14-A01-DevConf-2026/
+
 I used chatgpt for making this section. I only used two detailed prompt for making this. Prompts are given below:-
 
 #prompts-1: hey, i am pure beginner, currently i am larning web devlopment. so, i already learnt basic html and css(without any frameworks or library and responsibe design). my bootcamp give me a a assignment for making a website like this images(ui png). also this empty space,here i have to to add a section using al. so suggest me here what i can add this space or which will be suitable for this space basis on this project idea.
