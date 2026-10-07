@@ -1,64 +1,49 @@
-DEVCONF 2026 - Developer Conference Landing Page 🚀
+# DEVCONF 2026 - Developer Conference Landing Page 🚀
 
-Welcome to the official repository for DEVCONF 2026, a modern and structured frontend landing page designed for an upcoming developer conference. This project was developed as an assignment for a Full Stack Web Development course.
+Welcome to the official repository for **DEVCONF 2026**, a modern and structured frontend landing page designed for an upcoming developer conference. This project was developed as an assignment for a Full Stack Web Development course using basic HTML and CSS.
 
-🔗 Quick Links
+---
 
-🌐 Live Site: DEVCONF 2026 Live Demo
+## 🔗 Quick Links
 
-📁 GitHub Repository: B14-A01-DevConf-2026
+- 🌐 **Live Site:** [DEVCONF 2026 Live Demo](https://gazishawon999.github.io/B14-A01-DevConf-2026/)
+- 📁 **GitHub Repository:** [B14-A01-DevConf-2026](https://github.com/gazishawon999/B14-A01-DevConf-2026/)
 
-📌 Project Overview
+---
 
-DEVCONF 2026 is designed to give tech enthusiasts, engineers, and founders a complete event breakdown at a glance. Built using pure HTML and CSS, this static landing page focuses on structured content layout, semantic tagging, and clean visual presentation.
+## 📌 Project Overview
 
-🔥 Key Highlights & Sections
+DEVCONF 2026 is designed to give tech enthusiasts, engineers, and founders a complete event breakdown at a glance. Built using pure **HTML5** and **CSS3**, this static landing page focuses on structured content layout, semantic tagging, and clean visual presentation.
 
-🎯 Impactful Hero Area: Highlights the conference slogan ("Code. Connect. Create") alongside direct event registration triggers.
+---
 
-💡 Value Proposition Cards: Clearly articulates conference benefits such as industry mentorship, networking opportunities, and skill advancement.
+## 🔥 Key Highlights & Sections
 
-🎙️ Featured Keynotes & Tracks: Highlights industry leaders and specialized domain tracks including AI/ML and Cloud & DevOps.
+- 🎯 **Impactful Hero Area:** Highlights the conference slogan (*"Code. Connect. Create"*) alongside direct event registration CTAs.
+- 🎙️ **Meet the Speakers:** Showcases industry experts, tech leaders, and keynote speakers.
+- 💳 **Tiered Pricing Cards:** Clear subscription/ticket options (*Standard, Pro, Team*) with detailed feature checklists.
+- 💡 **Value Proposition ("Why Attend"):** Highlights core benefits including expert-led sessions, global networking, and hands-on learning.
 
-🎟️ Tiered Pricing Structure: Clearly defined pricing tiers (Standard, Pro, and Team) with detailed perk breakdowns for attendees.
+---
 
-🎨 Clean Visual Styling: Focuses on typography, custom CSS layouts, and consistent spacing without relying on third-party frameworks.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
+- **HTML5:** Semantic markup structure.
+- **CSS3:** Custom styling, typography, flexbox layouts, and UI design.
 
-HTML5: Semantic document markup and page structure.
+---
 
-CSS3: Custom styles, Flexbox, layout positioning, and design elements.
+## ⚙️ How to Run Locally
 
-📂 File Structure
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gazishawon999/B14-A01-DevConf-2026.git
+   ```
+2. **Navigate to the project folder:**
+   ```bash
+   cd B14-A01-DevConf-2026
+   ```
+3. **Open `index.html` in your browser:**
+   Simply double-click `index.html` or open it with any browser.
 
-B14-A01-DevConf-2026/
-├── index.html        # Core HTML document
-├── style.css         # Custom CSS stylesheet
-└── assets/           # Images and graphical resources
-
-
-🚀 Getting Started
-
-To view or edit this project locally:
-
-Clone the repository:
-
-git clone https://github.com/gazishawon999/B14-A01-DevConf-2026.git
-
-
-Navigate into the directory:
-
-cd B14-A01-DevConf-2026
-
-
-Launch the page:
-Open index.html in any web browser or use VS Code's Live Server extension.
-
-👨‍💻 Author
-
-Gazi Shawon
-
-GitHub: @gazishawon999
-
-Developed as part of a Full Stack Web Development Course Assignment.
+---
